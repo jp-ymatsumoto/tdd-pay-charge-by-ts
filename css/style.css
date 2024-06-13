@@ -1,0 +1,139 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  margin-bottom: 1px;
+  color: #f56500;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn--orange,
+button.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+button.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+} */
+
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  margin: 0 0 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: calc(100% - 40px);
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn--orange {
+  background-color: #ffa500;
+}
+
+.btn--orange:hover {
+  background-color: #e69500;
+}
+
+.chargeAmountContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Ensure the text input and the yen text are on the same line */
+#chargeAmount {
+  flex: 1;
+}
+
+#chargeAmount + span {
+  margin-left: 5px;
+}
